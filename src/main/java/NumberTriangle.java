@@ -153,9 +153,7 @@ public class NumberTriangle {
 
     public static void main(String[] args) throws IOException {
 
-        // NumberTriangle mt = NumberTriangle.loadTriangle("input_tree.txt");
-        NumberTriangle mt = NumberTriangle.loadTriangle("little_tree.txt");
-        System.out.println(mt);
+        NumberTriangle mt = NumberTriangle.loadTriangle("input_tree.txt");
 
         // [not for credit]
         // you can implement NumberTriangle's maxPathSum method if you want to try to solve
